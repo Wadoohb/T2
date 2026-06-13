@@ -1,0 +1,113 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: azure;
+    font-family: "Times New Roman", serif;
+}
+
+.titulo{
+    background-color: beige;
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.portada{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.portada img{
+    width: 550px;
+    max-width: 100%;
+}
+
+h2{
+    color: darkblue;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+p{
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+.centro{
+    text-align: center;
+    margin: 15px 0;
+}
+
+.fotos{
+    width: 220px;
+    height: 146px;
+}
+
+.imgVertical{
+    width: 200px;
+    height: 300px;
+}
+
+table{
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+th{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+td{
+    padding: 10px;
+}
+
+.enlaces{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.enlaces a{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: blue;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 15px;
+}
+
+.enlaces img{
+    width: 20px;
+    height: 20px;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pie{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
